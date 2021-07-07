@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:movies_redux/src/models/app_state.dart';
-import 'package:movies_redux/src/models/movie.dart';
 import 'package:redux/redux.dart';
 
-class MoviesContainer extends StatelessWidget {
-  const MoviesContainer({Key? key, required this.builder}) : super(key: key);
+class IsLoadingContainer extends StatelessWidget {
+  const IsLoadingContainer({Key? key, required this.builder}) : super(key: key);
 
-  final ViewModelBuilder<List<Movie>> builder;
+  final ViewModelBuilder<bool> builder;
 
   @override
   Widget build(BuildContext context) {
-    return StoreConnector<AppState, List<Movie>>(
+    return StoreConnector<AppState, bool>(
       converter: (Store<AppState> store) {
-        return store.state.movies.toList();
+        return store.state.isLoading;
       },
       builder: builder,
     );
