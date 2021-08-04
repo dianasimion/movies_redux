@@ -1,4 +1,4 @@
-import 'package:movies_redux/src/actions/get_movies.dart';
+import 'package:movies_redux/src/actions/index.dart';
 import 'package:movies_redux/src/models/app_state.dart';
 import 'package:redux/redux.dart';
 

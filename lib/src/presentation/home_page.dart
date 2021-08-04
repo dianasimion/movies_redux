@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:movies_redux/src/actions/get_movies.dart';
+import 'package:movies_redux/src/actions/index.dart';
 import 'package:movies_redux/src/containers/is_loading_container.dart';
 import 'package:movies_redux/src/containers/movies_container.dart';
 import 'package:movies_redux/src/models/app_state.dart';
