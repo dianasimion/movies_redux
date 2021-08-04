@@ -4,8 +4,8 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:movies_redux/src/actions/index.dart';
 import 'package:movies_redux/src/containers/is_loading_container.dart';
 import 'package:movies_redux/src/containers/movies_container.dart';
-import 'package:movies_redux/src/models/app_state.dart';
-import 'package:movies_redux/src/models/movie.dart';
+import 'package:movies_redux/src/models/index.dart';
+
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);

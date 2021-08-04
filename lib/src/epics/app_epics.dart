@@ -1,7 +1,7 @@
 import 'package:movies_redux/src/actions/index.dart';
 import 'package:movies_redux/src/data/movies_api.dart';
-import 'package:movies_redux/src/models/app_state.dart';
-import 'package:movies_redux/src/models/movie.dart';
+import 'package:movies_redux/src/models/index.dart';
+
 import 'package:redux_epics/redux_epics.dart';
 import 'package:rxdart/rxdart.dart';
 

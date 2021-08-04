@@ -5,7 +5,7 @@ import 'package:http/http.dart';
 import 'package:movies_redux/src/actions/index.dart';
 import 'package:movies_redux/src/data/movies_api.dart';
 import 'package:movies_redux/src/epics/app_epics.dart';
-import 'package:movies_redux/src/models/app_state.dart';
+import 'package:movies_redux/src/models/index.dart';
 import 'package:movies_redux/src/presentation/home_page.dart';
 import 'package:movies_redux/src/reducer/reducer.dart';
 import 'package:redux/redux.dart';

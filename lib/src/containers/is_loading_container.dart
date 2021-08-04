@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:movies_redux/src/models/app_state.dart';
+import 'package:movies_redux/src/models/index.dart';
 import 'package:redux/redux.dart';
 
 class IsLoadingContainer extends StatelessWidget {

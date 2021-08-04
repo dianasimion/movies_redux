@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart';
-import 'package:movies_redux/src/models/movie.dart';
+import 'package:movies_redux/src/models/index.dart';
 
 class MoviesApi {
   const MoviesApi({required Client client}) : _client = client;
